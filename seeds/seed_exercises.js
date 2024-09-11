@@ -129,7 +129,172 @@ export async function seed(knex) {
           description: "A high-intensity exercise using heavy ropes to improve cardiovascular fitness and burn fat.",
           instructions: "Hold the ends of the ropes with both hands and create waves by rapidly moving your arms up and down. Maintain a strong, athletic stance throughout."
       },
-
-      // Add other exercises here...
+            // Back exercises
+            {
+              name: "Pull-up",
+              body_part_id: 4,
+              difficulty: "Intermediate",
+              exercise_type: "Strength",
+              description: "A bodyweight exercise that primarily targets the lats and biceps.",
+              instructions: "Hang from a bar with palms facing away. Pull your body up until your chin is over the bar, then lower yourself down."
+          },
+          {
+              name: "Deadlift",
+              body_part_id: 4,
+              difficulty: "Advanced",
+              exercise_type: "Strength",
+              description: "A compound lift that targets the entire posterior chain, including the back and legs.",
+              instructions: "Stand with feet shoulder-width apart. Hinge at the hips to grasp the barbell, keeping your back flat. Lift the barbell by extending your hips and knees."
+          },
+          {
+              name: "Bent-over Row",
+              body_part_id: 4,
+              difficulty: "Intermediate",
+              exercise_type: "Gain Muscle",
+              description: "An exercise that targets the upper back and lats.",
+              instructions: "Hinge at the hips and hold a barbell with a shoulder-width grip. Pull the barbell towards your torso, squeezing your shoulder blades together, then lower it back down."
+          },
+          {
+              name: "Lat Pulldown",
+              body_part_id: 4,
+              difficulty: "Beginner",
+              exercise_type: "Strength",
+              description: "A machine-based exercise that targets the lats.",
+              instructions: "Sit at a lat pulldown machine and grasp the bar with an overhand grip. Pull the bar down towards your chest, then return to the starting position."
+          },
+          {
+              name: "Face Pull",
+              body_part_id: 4,
+              difficulty: "Intermediate",
+              exercise_type: "Strength",
+              description: "An exercise that targets the rear delts and upper back.",
+              instructions: "Attach a rope to a cable machine. Pull the rope towards your face, leading with your elbows and squeezing your shoulder blades."
+          },
+    
+          // Core exercises
+          {
+              name: "Plank",
+              body_part_id: 5,
+              difficulty: "Beginner",
+              exercise_type: "Strength",
+              description: "A static exercise that targets the core muscles.",
+              instructions: "Hold a plank position on your forearms and toes, keeping your body in a straight line from head to heels."
+          },
+          {
+              name: "Russian Twist",
+              body_part_id: 5,
+              difficulty: "Intermediate",
+              exercise_type: "Fat Loss",
+              description: "A rotational exercise that targets the obliques.",
+              instructions: "Sit on the floor with knees bent and feet off the ground. Twist your torso to each side, touching the ground beside your hips."
+          },
+          {
+              name: "Mountain Climbers",
+              body_part_id: 5,
+              difficulty: "Beginner",
+              exercise_type: "Fat Loss",
+              description: "A high-intensity exercise that engages the entire core.",
+              instructions: "Start in a plank position. Drive one knee towards your chest, then switch legs in a running motion."
+          },
+          {
+              name: "Leg Raise",
+              body_part_id: 5,
+              difficulty: "Intermediate",
+              exercise_type: "Strength",
+              description: "An exercise that targets the lower abs.",
+              instructions: "Lie on your back with legs extended. Lift your legs until they are perpendicular to the ground, then lower them back down."
+          },
+          {
+              name: "Bicycle Crunch",
+              body_part_id: 5,
+              difficulty: "Intermediate",
+              exercise_type: "Fat Loss",
+              description: "A dynamic exercise that targets the abs and obliques.",
+              instructions: "Lie on your back with hands behind your head. Bring one knee and the opposite elbow together in a cycling motion."
+          },
+    
+          // Shoulders exercises
+          {
+              name: "Overhead Press",
+              body_part_id: 6,
+              difficulty: "Intermediate",
+              exercise_type: "Strength",
+              description: "A compound lift that targets the shoulders and triceps.",
+              instructions: "Stand with feet shoulder-width apart, holding a barbell at shoulder height. Press the barbell overhead until your arms are fully extended, then lower it back down."
+          },
+          {
+              name: "Lateral Raise",
+              body_part_id: 6,
+              difficulty: "Beginner",
+              exercise_type: "Strength",
+              description: "An isolation exercise that targets the side deltoids.",
+              instructions: "Stand with a dumbbell in each hand. Raise the dumbbells out to the sides until your arms are parallel to the ground, then lower them back down."
+          },
+          {
+              name: "Front Raise",
+              body_part_id: 6,
+              difficulty: "Beginner",
+              exercise_type: "Gain Muscle",
+              description: "An isolation exercise that targets the front delts.",
+              instructions: "Hold a dumbbell in each hand with palms facing your thighs. Lift the weights in front of you until your arms are parallel to the ground, then lower them back down."
+          },
+          {
+              name: "Arnold Press",
+              body_part_id: 6,
+              difficulty: "Intermediate",
+              exercise_type: "Gain Muscle",
+              description: "A shoulder press variation that targets the front and side deltoids.",
+              instructions: "Start with dumbbells at shoulder height with palms facing you. Press the dumbbells overhead while rotating your palms away from you."
+          },
+          {
+              name: "Shrugs",
+              body_part_id: 6,
+              difficulty: "Beginner",
+              exercise_type: "Strength",
+              description: "An exercise that targets the upper traps and shoulders.",
+              instructions: "Hold a dumbbell in each hand at your sides. Shrug your shoulders up towards your ears, then lower them back down."
+          },
+    
+          // Glutes exercises
+          {
+              name: "Hip Thrust",
+              body_part_id: 7,
+              difficulty: "Intermediate",
+              exercise_type: "Gain Muscle",
+              description: "An exercise that targets the glutes and hamstrings.",
+              instructions: "Sit with your upper back against a bench and a barbell across your hips. Drive through your heels to lift your hips, then lower back down."
+          },
+          {
+              name: "Glute Bridge",
+              body_part_id: 7,
+              difficulty: "Beginner",
+              exercise_type: "Strength",
+              description: "A bodyweight exercise that targets the glutes.",
+              instructions: "Lie on your back with knees bent and feet flat on the ground. Lift your hips by squeezing your glutes, then lower back down."
+          },
+          {
+              name: "Step-ups",
+              body_part_id: 7,
+              difficulty: "Intermediate",
+              exercise_type: "Strength",
+              description: "An exercise that targets the glutes and quads.",
+              instructions: "Stand in front of a bench or step. Step up with one foot and drive through your heel to lift your body onto the step, then lower back down."
+          },
+          {
+              name: "Kickback",
+              body_part_id: 7,
+              difficulty: "Beginner",
+              exercise_type: "Strength",
+              description: "An isolation exercise that targets the glutes.",
+              instructions: "Start on all fours. Extend one leg back and up while squeezing the glute, then return to the starting position."
+          },
+          {
+            name: "Sumo Deadlift",
+            body_part_id: 7,
+            difficulty: "Advanced",
+            exercise_type: "Strength",
+            description: "A deadlift variation that emphasizes the glutes and inner thighs.",
+            instructions: "Stand with a wide stance and grip the barbell with both hands inside your legs. Keep your chest up and back flat. Push through your heels to lift the barbell by extending your hips and knees, then lower it back down with control."
+        },
   ]);
 };
