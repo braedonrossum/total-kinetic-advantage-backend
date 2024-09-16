@@ -5,9 +5,10 @@ const knex = initKnex(configuration.development);
 
 export async function generateProgram(req, res) {
     const { frequency, fitnessLevel, exerciseType } = req.body;
-
+    const frequencyNumber = Number(frequency)
+        console.log(frequencyNumber, fitnessLevel, exerciseType)
     try {
-        if (!Number.isInteger(frequency) || frequency <= 0) {
+        if (!Number.isInteger(frequencyNumber) || frequencyNumber <= 0) {
             return res.status(400).send("Frequency must be a positive integer.");
         }
 
@@ -16,7 +17,7 @@ export async function generateProgram(req, res) {
             .andWhere("exercise_type", exerciseType)
             .select("name", "body_part_id");
 
-        const program = generateExerciseProgram(exercises, frequency);
+        const program = generateExerciseProgram(exercises, frequencyNumber);
 
         res.json(program);
     } catch (error) {
