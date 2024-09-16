@@ -19,6 +19,7 @@ export async function getAllExercises(req, res) {
         // Execute the query
         const data = await query;
         res.status(200).json(data);
+        console.log(data)
     } catch (error) {
         // Handle any errors that occur during query execution
         res.status(500).json({ error: error.message });
@@ -46,7 +47,7 @@ export async function getExerciseById(req,res) {
         return res.status(200).json(data);
     } catch (err) {
         console.error(err);
-        return res.error(500).json({
+        return res.status(500).json({
             message: `Error retrieving Exercise ${req.params.id} Data`,
         });
     }
