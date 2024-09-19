@@ -13,9 +13,9 @@ export async function generateProgram(req, res) {
         }
 
         const exercises = await knex("exercises")
-            .where("difficulty", fitnessLevel)
-            .andWhere("exercise_type", exerciseType)
-            .select("name", "body_part_id");
+            .where("difficulty", "like", `%${fitnessLevel}%`)
+            .andWhere("exercise_type", "like", `%${exerciseType}%`)
+            .select("id", "name", "body_part_id","description", "instructions", "sets", "reps", "video");
 
         const program = generateExerciseProgram(exercises, frequencyNumber);
 
