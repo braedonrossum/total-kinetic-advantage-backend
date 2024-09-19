@@ -9,7 +9,10 @@ const getColumns = [
     "difficulty",
     "exercise_type",
     "description",
-    "instructions"
+    "instructions",
+    "sets",
+    "reps",
+    "video"
 ] 
 
 export async function getAllExercises(req, res) {
