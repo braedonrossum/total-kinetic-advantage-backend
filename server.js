@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8081;
 const CORS_ORIGIN = process.env.CORS_ORIGIN;
 
 app.use(express.json());
-app.use(cors({ origin: CORS_ORIGIN }));
+app.use(cors());
 app.use(express.static("public"));
 
 app.route("/").get((_req, res) => {
