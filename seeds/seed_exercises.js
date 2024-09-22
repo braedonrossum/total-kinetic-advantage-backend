@@ -421,7 +421,7 @@ export async function seed(knex) {
                 "Lie on your back with knees bent and feet flat on the ground. Lift your hips by squeezing your glutes, then lower back down.",
             sets: 4,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "http://172.16.1.77:8384/glute%20bridge.mp4",
         },
         {
             name: "Step-ups",
