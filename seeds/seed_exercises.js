@@ -16,7 +16,7 @@ export async function seed(knex) {
                 "Lie on a bench with feet flat on the floor. Grip the barbell slightly wider than shoulder-width. Lower the barbell to your chest and then press it back up.",
             sets: 4,
             reps: 8,
-            video: "public/bent-over-row.gif",
+            video: "DrT209hyCi0",
         },
         {
             name: "Push-up",
@@ -29,7 +29,7 @@ export async function seed(knex) {
                 "Start in a plank position with hands shoulder-width apart. Lower your body until your chest nearly touches the floor, then push back up.",
             sets: 3,
             reps: 15,
-            video: "https://www.example.com/videos/bench-press",
+            video: "bx0EAmaOCj4",
         },
         {
             name: "Incline Bench Press",
@@ -42,7 +42,7 @@ export async function seed(knex) {
                 "Set the bench to a 30-45 degree incline. Grip the barbell slightly wider than shoulder-width, lower it to your chest, then press it back up.",
             sets: 3,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "PZsrY2-REbg",
         },
         {
             name: "Chest Fly",
@@ -55,7 +55,7 @@ export async function seed(knex) {
                 "Lie on a bench with a dumbbell in each hand. With elbows slightly bent, lower the weights to the sides, then bring them back together in a hugging motion.",
             sets: 4,
             reps: 10,
-            video: "https://www.example.com/videos/bench-press",
+            video: "f3tAkTipAkg",
         },
         {
             name: "Decline Push-up",
@@ -68,7 +68,7 @@ export async function seed(knex) {
                 "Place your feet on an elevated surface and your hands on the ground. Lower your body until your chest is close to the floor, then push back up.",
             sets: 3,
             reps: 15,
-            video: "https://www.example.com/videos/bench-press",
+            video: "knq8qiPVc8w",
         },
 
         // Legs exercises
@@ -83,7 +83,7 @@ export async function seed(knex) {
                 "Stand with feet shoulder-width apart. Lower your body by bending your knees and hips until your thighs are parallel to the ground. Push through your heels to return to the starting position.",
             sets: 3,
             reps: 8,
-            video: "https://www.example.com/videos/bench-press",
+            video: "mmA4ghB1e7c",
         },
         {
             name: "Lunges",
@@ -96,7 +96,7 @@ export async function seed(knex) {
                 "Step forward with one leg and lower your hips until both knees are bent at a 90-degree angle. Push back to the starting position and repeat on the other side.",
             sets: 3,
             reps: 20,
-            video: "https://www.example.com/videos/bench-press",
+            video: "yLUAZa_7_MA",
         },
         {
             name: "Jump Squats",
@@ -109,7 +109,7 @@ export async function seed(knex) {
                 "Perform a regular squat, but as you come up, explode into a jump. Land softly and immediately go into the next squat.",
             sets: 3,
             reps: 10,
-            video: "https://www.example.com/videos/bench-press",
+            video: "HIN-G2hqWUM",
         },
         {
             name: "Romanian Deadlift",
@@ -122,7 +122,7 @@ export async function seed(knex) {
                 "Stand with feet shoulder-width apart, holding a barbell with an overhand grip. Keeping your knees slightly bent, hinge at the hips to lower the barbell while maintaining a neutral spine. Lower until you feel a stretch in the hamstrings, then push your hips forward to return to the starting position.",
             sets: 3,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "c5To2Y9Fbd8",
         },
         {
             name: "Bulgarian Split Squat",
@@ -135,7 +135,7 @@ export async function seed(knex) {
                 "Place one foot on a bench behind you. Lower your body by bending the front knee until the thigh is parallel to the ground, then press through the front heel to return to the starting position.",
             sets: 3,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "upmbYRuPPPo",
         },
 
         // Arms exercises
@@ -149,7 +149,7 @@ export async function seed(knex) {
                 "Stand with feet shoulder-width apart and hold a dumbbell in each hand. Curl the weights towards your shoulders, then lower them back down.",
             sets: 4,
             reps: 10,
-            video: "https://www.example.com/videos/bench-press",
+            video: "o43LwsRg3uc",
         },
         {
             name: "Tricep Dips",
@@ -162,7 +162,7 @@ export async function seed(knex) {
                 "Place your hands on a bench behind you with fingers facing forward. Lower your body by bending your elbows, then press back up to the starting position.",
             sets: 4,
             reps: 8,
-            video: "https://www.example.com/videos/bench-press",
+            video: "XeCKmwgEGpk",
         },
         {
             name: "Concentration Curl",
@@ -175,7 +175,7 @@ export async function seed(knex) {
                 "Sit on a bench and rest your elbow on the inside of your thigh. Curl the dumbbell towards your shoulder, then lower it back down.",
             sets: 4,
             reps: 8,
-            video: "https://www.example.com/videos/bench-press",
+            video: "AJcVD47q_3E",
         },
         {
             name: "Overhead Tricep Extension",
@@ -188,20 +188,20 @@ export async function seed(knex) {
                 "Hold a dumbbell or barbell overhead with both hands. Lower the weight behind your head by bending your elbows, then extend your arms back to the starting position.",
             sets: 3,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "E-6odGfnRB8",
         },
         {
-            name: "Seated Incline Bicep Curl",
+            name: "Cable Tricep Extension",
             body_part_id: 3,
             difficulty: "Beginner, Intermediate, Advanced",
             exercise_type: "Gain Muscle, Fat Loss",
             description:
-                "An isolation exercise that targets the biceps by curling a dumbbell while seated on an incline bench, allowing for a greater range of motion.",
+                "An isolation exercise that targets the triceps by extending the arms downward using a cable machine, providing constant tension throughout the movement.",
             instructions:
-                "Sit on an incline bench set at a 45-degree angle with a dumbbell in each hand. Let your arms hang down fully extended. Slowly curl the dumbbells up, keeping your elbows stationary and close to your body. Squeeze at the top of the movement, then slowly lower the weights back to the starting position.",
+                "Attach a straight or rope handle to a high pulley on a cable machine. Grip the handle with both hands, elbows close to your sides. Extend your arms downward until fully straight, focusing on engaging the triceps. Slowly return to the starting position with control.",
             sets: 3,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "3EduS_snctE",
         },
         // Back exercises
         {
@@ -215,7 +215,7 @@ export async function seed(knex) {
                 "Hang from a bar with palms facing away. Pull your body up until your chin is over the bar, then lower yourself down.",
             sets: 3,
             reps: 8,
-            video: "https://www.example.com/videos/bench-press",
+            video: "8eJniQmuANI",
         },
         {
             name: "Deadlift",
@@ -228,7 +228,7 @@ export async function seed(knex) {
                 "Stand with feet shoulder-width apart. Hinge at the hips to grasp the barbell, keeping your back flat. Lift the barbell by extending your hips and knees.",
             sets: 3,
             reps: 8,
-            video: "CYcBRhnn97g",
+            video: "Xj5ErZItzBM",
         },
         {
             name: "Bent-over Row",
@@ -240,7 +240,7 @@ export async function seed(knex) {
                 "Hinge at the hips and hold a barbell with a shoulder-width grip. Pull the barbell towards your torso, squeezing your shoulder blades together, then lower it back down.",
             sets: 4,
             reps: 10,
-            video: "9XTxDQCGegg",
+            video: "X4E_gYnBAYg",
         },
         {
             name: "Lat Pulldown",
@@ -252,7 +252,7 @@ export async function seed(knex) {
                 "Sit at a lat pulldown machine and grasp the bar with an overhand grip. Pull the bar down towards your chest, then return to the starting position.",
             sets: 3,
             reps: 10,
-            video: "https://www.example.com/videos/bench-press",
+            video: "PK_rkOg-fiY",
         },
         {
             name: "Face Pull",
@@ -265,7 +265,7 @@ export async function seed(knex) {
                 "Attach a rope to a cable machine. Pull the rope towards your face, leading with your elbows and squeezing your shoulder blades.",
             sets: 4,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "c4Jg3egoJhc",
         },
 
         // Core exercises
@@ -279,7 +279,7 @@ export async function seed(knex) {
                 "Hold a plank position on your forearms and toes, keeping your body in a straight line from head to heels.",
             sets: 4,
             reps: 30,
-            video: "https://www.example.com/videos/bench-press",
+            video: "PYKVNBxbjZs",
         },
         {
             name: "Russian Twist",
@@ -291,7 +291,7 @@ export async function seed(knex) {
                 "Sit on the floor with knees bent and feet off the ground. Twist your torso to each side, touching the ground beside your hips.",
             sets: 3,
             reps: 20,
-            video: "https://www.example.com/videos/bench-press",
+            video: "pbfdLDpjeqU",
         },
         {
             name: "Mountain Climbers",
@@ -304,7 +304,7 @@ export async function seed(knex) {
                 "Start in a plank position. Drive one knee towards your chest, then switch legs in a running motion.",
             sets: 3,
             reps: 20,
-            video: "https://www.example.com/videos/bench-press",
+            video: "iBej1fxf8gI",
         },
         {
             name: "Leg Raise",
@@ -316,7 +316,7 @@ export async function seed(knex) {
                 "Lie on your back with legs extended. Lift your legs until they are perpendicular to the ground, then lower them back down.",
             sets: 4,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "0floht1lwK4",
         },
         {
             name: "Bicycle Crunch",
@@ -329,7 +329,7 @@ export async function seed(knex) {
                 "Lie on your back with hands behind your head. Bring one knee and the opposite elbow together in a cycling motion.",
             sets: 4,
             reps: 20,
-            video: "https://www.example.com/videos/bench-press",
+            video: "__VGJAv4Tbg",
         },
 
         // Shoulders exercises
@@ -344,7 +344,7 @@ export async function seed(knex) {
                 "Stand with feet shoulder-width apart, holding a barbell at shoulder height. Press the barbell overhead until your arms are fully extended, then lower it back down.",
             sets: 3,
             reps: 10,
-            video: "https://www.example.com/videos/bench-press",
+            video: "Tb5pFmbLV3I",
         },
         {
             name: "Lateral Raise",
@@ -357,7 +357,7 @@ export async function seed(knex) {
                 "Stand with a dumbbell in each hand. Raise the dumbbells out to the sides until your arms are parallel to the ground, then lower them back down.",
             sets: 3,
             reps: 10,
-            video: "https://www.example.com/videos/bench-press",
+            video: "wXvukCp_Z_Y",
         },
         {
             name: "Front Raise",
@@ -369,7 +369,7 @@ export async function seed(knex) {
                 "Hold a dumbbell in each hand with palms facing your thighs. Lift the weights in front of you until your arms are parallel to the ground, then lower them back down.",
             sets: 4,
             reps: 8,
-            video: "https://www.example.com/videos/bench-press",
+            video: "CMDzdoBF1Wg",
         },
         {
             name: "Arnold Press",
@@ -382,7 +382,7 @@ export async function seed(knex) {
                 "Start with dumbbells at shoulder height with palms facing you. Press the dumbbells overhead while rotating your palms away from you.",
             sets: 3,
             reps: 8,
-            video: "https://www.example.com/videos/bench-press",
+            video: "v2T8jOw27G8",
         },
         {
             name: "Shrugs",
@@ -395,7 +395,7 @@ export async function seed(knex) {
                 "Hold a dumbbell in each hand at your sides. Shrug your shoulders up towards your ears, then lower them back down.",
             sets: 4,
             reps: 15,
-            video: "https://www.example.com/videos/bench-press",
+            video: "QjsrUu2HKqA",
         },
 
         // Glutes exercises
@@ -409,7 +409,7 @@ export async function seed(knex) {
                 "Sit with your upper back against a bench and a barbell across your hips. Drive through your heels to lift your hips, then lower back down.",
             sets: 3,
             reps: 8,
-            video: "https://www.example.com/videos/bench-press",
+            video: "tVY3b28Rts4",
         },
         {
             name: "Glute Bridge",
@@ -421,7 +421,7 @@ export async function seed(knex) {
                 "Lie on your back with knees bent and feet flat on the ground. Lift your hips by squeezing your glutes, then lower back down.",
             sets: 4,
             reps: 12,
-            video: "http://172.16.1.77:8384/glute%20bridge.mp4",
+            video: "OsZ3huGFmLg",
         },
         {
             name: "Step-ups",
@@ -433,7 +433,7 @@ export async function seed(knex) {
                 "Stand in front of a bench or step. Step up with one foot and drive through your heel to lift your body onto the step, then lower back down.",
             sets: 4,
             reps: 20,
-            video: "https://www.example.com/videos/bench-press",
+            video: "QFw7akNoaas",
         },
         {
             name: "Kickback",
@@ -445,7 +445,7 @@ export async function seed(knex) {
                 "Start on all fours. Extend one leg back and up while squeezing the glute, then return to the starting position.",
             sets: 4,
             reps: 12,
-            video: "https://www.example.com/videos/bench-press",
+            video: "b8dcUDvv3HM",
         },
         {
             name: "Sumo Deadlift",
@@ -458,7 +458,7 @@ export async function seed(knex) {
                 "Stand with a wide stance and grip the barbell with both hands inside your legs. Keep your chest up and back flat. Push through your heels to lift the barbell by extending your hips and knees, then lower it back down with control.",
             sets: 3,
             reps: 8,
-            video: "https://www.example.com/videos/bench-press",
+            video: "m7tkFCdJatU",
         },
     ]);
 }
