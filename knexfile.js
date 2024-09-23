@@ -1,4 +1,4 @@
-// Update with your config settings.
+import "dotenv/config";
 
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
@@ -11,6 +11,13 @@ export default {
       database: process.env.DB_NAME,
       user: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
+    },
+    migrations: {
+      tableName: 'knex_migrations',
+      directory: './migrations'
+    },
+    seeds: {
+      directory: './seeds'
     }
   }
 };
