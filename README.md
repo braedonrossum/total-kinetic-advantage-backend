@@ -70,15 +70,15 @@ The **Total Kinetic Advantage** backend powers the application's API, providing 
 -   `GET /api/body`: Retrieve a list of body parts and their associated exercises.
 
 ## Project Structure
-
-`src/
+```
+src/
 ├── controllers/        # Handles request logic
 ├── routes/             # Defines API endpoints
 ├── models/             # Database interaction logic
 ├── migrations/         # Database schema setup
 ├── seeds/              # Initial data population
-└── app.js              # Main server file` 
-
+└── app.js              # Main server file
+```
 ## Technologies Used
 
 -   **Node.js**: JavaScript runtime for building the server.
