@@ -58,11 +58,11 @@ The **Total Kinetic Advantage** backend powers the application's API, providing 
     -   **Request Body**:
        
  ```json
-        `{
+        {
           "fitnessLevel": "beginner",
           "frequency": 3,
           "goal": "strength"
-        }` 
+        }
 ```
 
 ### **Body Parts**
